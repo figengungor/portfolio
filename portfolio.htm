@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="title-logo" src="images/udacity-logo.jpg">
+        </div>
+        <div class="col-md-6 text-uppercase text-right" >
+          <h1 class="text-black text-bold title-super">Figen Güngör</h1>
+          <h3 class="text-black text-thin">Android Ninja</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr/>
+        </div>
+      </div>
+      <div class="bg">
+        <div class="row row-p-t">
+          <div class="col-md-12">
+            <img src="images/geek.jpg" class="img-responsive">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted title-section">Featured Work</h2>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row row-m-b text-center">
+            <div class="col-md-6">
+              <img src="images/baby-sleeping-sounds.png" class="img-responsive" data-toggle="modal" data-target="#project1">
+              <h3 class="text-uppercase">Baby Sleeping Sounds</h3>
+              <p><a href="https://play.google.com/store/apps/details?id=com.figengungor.bebekuyutansesler">Link to app</a></p>
+            </div>
+            <div class="col-md-6" >
+              <img src="images/speak-translate.png" class="img-responsive" data-toggle="modal" data-target="#project2">
+              <h3 class="text-uppercase">Speak Translate</h3>
+              <p><a href="https://play.google.com/store/apps/details?id=com.figengungor.konuscevir">Link to app</a></p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-6">
+              <img src="images/series-track.png" class="img-responsive" data-toggle="modal" data-target="#project3">
+              <h3 class="text-uppercase">Series Track</h3>
+              <p><a href="https://play.google.com/store/apps/details?id=com.figengungor.seriestrack">Link to app</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal Project 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Baby Sleeping Sounds</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/baby-sleeping-sounds.png">
+                    <br/>
+                    This Android app provides sounds that is similar to mother's womb. These sounds are also called white noises. They calm babies imitating the environment of mother's womb. The app also has some soothing music. So try it on your baby while you're trying to make him/her sleep and choose his/her favourite.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default bg" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal Project 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Speak Translate</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/speak-translate.png">
+                    <br/>
+                    English-Turkish dictionary app. Search your term either with typing term in both languages (no need to toggle tr-en, en-tr states) or with voice action of chosen language. The app also records your term search history.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default bg" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal Project 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Series Track</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/series-track.png">
+                    <br/>
+                    Track your series offline. Check out series from TMDb. Login to your TMDb account and take actions on series.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default bg" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

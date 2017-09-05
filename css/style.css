@@ -1,0 +1,77 @@
+/**{
+  border:1px solid red !important;
+}*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #D0C4AB;
+  font-weight: 300;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: #D0C4AB; /* old IE */
+    background-color: #D0C4AB; /* Modern Browsers */
+}
+
+.bg {
+  background-color: #131A2D;
+}
+
+.row-p-t {
+  padding-top : 20px
+}
+
+.row-m-b {
+  margin-bottom: 20px;
+}
+
+.text-black {
+  color: #131A2D;
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+.text-thin {
+  font-weight: 300;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.title-super {
+  font-size:  60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+.title-section{
+  margin-left: 40px;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content img {
+  max-height: 250px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.modal-body img {
+  margin: 0 auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
